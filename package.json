@@ -1,8 +1,8 @@
 {
-  "name": "mpvue-toast",
-  "version": "0.1.3",
+  "name": "mpvue-toast-native",
+  "version": "0.1.0",
   "description": "mpvue-toast is a toast plugin for mpvue",
-  "author": "linrui <linrui1994@foxmail.com>",
+  "author": "Cary Yang <carynihility@gmail.com>",
   "main": "src/Toast.vue",
   "module": "src/Toast.vue",
   "files": [
