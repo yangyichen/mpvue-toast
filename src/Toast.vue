@@ -1,5 +1,5 @@
 <template>
-  <div class="toast-wrapper" :class="customClass" v-show="!animateEnd">
+  <div class="toast-wrapper" :class="customClass" v-if="!animateEnd">
     <i class="toast-icon" :class="iconClass" v-if="iconClass"></i>
     <div class='toast-img-wrapper' v-if="img">
       <img class='toast-img' :src="img" />
@@ -90,9 +90,6 @@ export default {
 </script>
 
 <style scoped>
-.toast-wrapper[hidden] {
-  z-index: -100;
-}
 .toast-wrapper {
   position: fixed;
   display: inline-block;
